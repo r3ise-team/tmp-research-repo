@@ -4,6 +4,16 @@ This repository serves as the **official template** for all research repositorie
 
 ---
 
+
+## ✅ How to Use This Template
+
+1. Click **Use this template** on GitHub
+2. Name the new repository following R3ISE conventions (`proj-*`, `tool-*`, etc.)
+3. Update `README.md`, `CITATION.cff`, and `LICENSE`
+4. Start committing research code
+
+---
+
 ## 📁 Standard Repository Structure
 
 ```
@@ -216,13 +226,5 @@ Each experiment should:
 
 ---
 
-## ✅ How to Use This Template
-
-1. Click **Use this template** on GitHub
-2. Name the new repository following R3ISE conventions (`proj-*`, `tool-*`, etc.)
-3. Update `README.md`, `CITATION.cff`, and `LICENSE`
-4. Start committing research code
-
----
-
 Maintained by the **R3ISE Research Team**.
+
