@@ -1,0 +1,61 @@
+name: Experiment Request
+description: Propose or request an experiment
+labels: ["type: experiment"]
+body:
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Hypothesis / Goal
+      description: What hypothesis are you testing or what is the goal of this experiment?
+      placeholder: State your hypothesis or experimental goal
+    validations:
+      required: true
+  - type: textarea
+    id: methodology
+    attributes:
+      label: Methodology
+      description: How will you conduct this experiment?
+      placeholder: |
+        - Dataset(s) to use
+        - Metrics to evaluate
+        - Baseline comparisons
+        - Experimental setup
+    validations:
+      required: false
+  - type: textarea
+    id: configuration
+    attributes:
+      label: Configuration
+      description: What configuration parameters are needed?
+      placeholder: |
+        - Hyperparameters
+        - Model architecture
+        - Training settings
+    validations:
+      required: false
+  - type: textarea
+    id: resources
+    attributes:
+      label: Resource Requirements
+      description: What computational resources are needed?
+      placeholder: |
+        - GPU/CPU requirements
+        - Memory requirements
+        - Estimated runtime
+    validations:
+      required: false
+  - type: textarea
+    id: expected_outcomes
+    attributes:
+      label: Expected Outcomes
+      description: What results do you expect or hope to see?
+      placeholder: Describe expected experimental outcomes
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional Context
+      description: Any other relevant information
+    validations:
+      required: false

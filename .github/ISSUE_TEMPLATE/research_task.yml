@@ -1,0 +1,56 @@
+name: Research Task
+description: Research or investigation task
+labels: ["type: research"]
+body:
+  - type: textarea
+    id: research_question
+    attributes:
+      label: Research Question or Task
+      description: Describe the research question or task to be investigated
+      placeholder: What is the research question or task?
+    validations:
+      required: true
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this research question important?
+      placeholder: Explain the motivation and context
+    validations:
+      required: false
+  - type: textarea
+    id: approach
+    attributes:
+      label: Proposed Approach
+      description: How do you plan to approach this research question?
+      placeholder: Describe your methodology or approach
+    validations:
+      required: false
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Expected Deliverables
+      description: What are the expected outcomes or deliverables?
+      placeholder: |
+        - Analysis report
+        - Code implementation
+        - Experimental results
+        - Documentation
+    validations:
+      required: false
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Timeline
+      description: Estimated timeline for completion
+      placeholder: e.g., 2-3 weeks
+    validations:
+      required: false
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Relevant papers, articles, or resources
+      placeholder: List any relevant references
+    validations:
+      required: false
