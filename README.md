@@ -10,7 +10,9 @@ This repository serves as the **official template** for all research repositorie
 1. Click **Use this template** on GitHub
 2. Name the new repository following R3ISE conventions (`proj-*`, `tool-*`, etc.)
 3. Update `README.md`, `CITATION.cff`, and `LICENSE`
-4. Start committing research code
+4. Create `dev`, `dep`, and `prd` branches.
+5. If you want to develop something use `dev` branch (you can also create more branches off from `dev`, e.g., `dev-frontend`, `dev-backend-fix-bug-something`)
+6. Start committing research code
 
 ---
 
