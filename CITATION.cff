@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "Project Title"
+message: "If you use this software in your research, please cite it."
+authors:
+- family-names: ABC
+given-names: DEF
+date-released: 2026-01-01
+version: 0.1.0
+license: MIT
