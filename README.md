@@ -12,7 +12,8 @@ This repository serves as the **official template** for all research repositorie
 3. Update `README.md`, `CITATION.cff`, and `LICENSE`
 4. Create `dev`, `dep`, and `prd` branches.
 5. If you want to develop something use `dev` branch (you can also create more branches off from `dev`, e.g., `dev-frontend`, `dev-backend-fix-bug-something`)
-6. Start committing research code
+6. Make sure you only merge from `dev-*` to `dev` (NOT `main` or `prd` or `dep`)
+7. Start committing research code
 
 ---
 
